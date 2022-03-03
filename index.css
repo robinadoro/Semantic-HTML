@@ -20,8 +20,8 @@
     border: none;
     text-decoration: none;
     padding: 2px;
-    background-color: blue;
-    color: white;
+    /* background-color: blue;
+    color: white; */
 }
 header{
     border: 1px solid black;
@@ -29,6 +29,8 @@ header{
     background-color: aliceblue;
     box-sizing: border-box;
     display: flex;
+    height: 500px;
+    margin-top: -20px;
 }
 header figure{
     margin-left: 30%;
@@ -41,7 +43,7 @@ header figure{
 }
 main{
     display: flex;
-    padding: 2%;
+    padding: 0%;
 }
 article{
     background-color: #87CEEB;
