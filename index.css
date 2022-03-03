@@ -24,3 +24,15 @@ header{
     box-sizing: border-box;
     text-align: center;
 }
+main{
+    display: flex;
+    padding: 2%;
+}
+article{
+    width:65%;
+    border: 1px solid black;
+}
+aside{
+    width: 35%;
+    border: 1px solid brown;
+}
