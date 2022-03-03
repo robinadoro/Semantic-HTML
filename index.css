@@ -1,0 +1,21 @@
+*{
+    margin: 20px;
+}
+.container{
+    border: 1px solid black;
+   
+}
+.container ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    list-style: none;
+    
+}
+.container a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 2px;
+    background-color: blue;
+    color: white;
+}
