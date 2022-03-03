@@ -19,3 +19,8 @@
     background-color: blue;
     color: white;
 }
+header{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
