@@ -3,6 +3,9 @@
 }
 .container{
     border: 1px solid black;
+    /* border: none; */
+    padding: 2%;
+    background-color: #87CEEB;
    
 }
 .container ul {
@@ -14,6 +17,7 @@
 }
 .container a {
     border: 1px solid black;
+    border: none;
     text-decoration: none;
     padding: 2px;
     background-color: blue;
@@ -21,18 +25,60 @@
 }
 header{
     border: 1px solid black;
+    border: none;
+    background-color: aliceblue;
     box-sizing: border-box;
-    text-align: center;
+    display: flex;
+}
+header figure{
+    margin-left: 30%;
+}
+.text{
+   margin-left: 5%;
+   padding: 5%;
+   font-weight: bolder;
+   font-size:large;
 }
 main{
     display: flex;
     padding: 2%;
 }
 article{
+    background-color: #87CEEB;
     width:65%;
     border: 1px solid black;
+    border: none;
 }
 aside{
+    
     width: 35%;
     border: 1px solid brown;
+    border: none;
+}
+section h3{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+form input{
+    width: 20%;
+    padding: 1%;
+}
+form textarea{
+    width: 30%;
+    padding: 1%;
+}
+form button{
+    width: 7%;
+    padding: 1%;
+}
+footer{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+    background-color: #87CEEB;
+    border: none;
 }
